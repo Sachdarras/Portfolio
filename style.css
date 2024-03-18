@@ -1,0 +1,89 @@
+
+@font-face {
+    font-family:"gineso";
+    src: url(/asset/fb-download-gineso-normal-regular-1710768646/ginesonormregular.otf);
+}
+
+@font-face {
+    font-family: "radjhani";
+    src: url(/asset/Rajdhani/Rajdhani-Regular.ttf);
+}
+
+:root{
+
+    --fonttilte : "radjhani";
+    --fonttext:"gineso";
+    
+}
+html{background-color: #3A3B40;color: antiquewhite;}
+html.jour{background-color: antiquewhite;
+color: #3A3B40;}
+
+*{font-family: var(--fonttext);
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+h1, h2, h3{
+    font-family: var(--fonttilte);
+}
+
+/*header*/
+
+
+nav ul{list-style: none;
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+font-size: 1.5rem;
+margin: 10px;
+
+}
+nav ul li{box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    border-radius: 10px;
+width: 10%;
+text-align: center;}
+
+/*main*/
+h1{color: #F2C36B;
+font-size: 3rem;
+display: flex;
+justify-content:center;
+ margin-top: 100px;}
+
+ h2{color: #BF935E;
+font-size: 2rem;
+margin-left:100px ;
+ }
+
+ /*changement de théme*/
+#themeLogo{position: absolute;
+top:10px;
+right: 30px;
+font-size: 40px;
+cursor: pointer;
+}
+
+ .description{
+font-size: 1.5rem;
+padding: 2rem;-webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+border-radius: 10px;
+width: 49%;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+ .portrait{width: 49%;
+display: flex;
+float: right;}
+
+.contactMe{color: antiquewhite;
+font-size: 1.25rem;
+margin-top: 100px;
+margin-left: 20px;
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+border-radius: 10px;
+width:10%}
